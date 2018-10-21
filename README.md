@@ -1,6 +1,6 @@
-# Cooper Union Boiler Plate
+# NASA Space Apps NYC 2018
 
-# HackCooper 2018 - EduThrift
+# Grab the Can Opener Challenge
 
 ##Team: <br>
 T.E.A.M. (Tracking Extraterrestrial Astriods & Meteors) <br>
@@ -12,42 +12,27 @@ Michael, Riley, Nestor, Silu, Gigi, Ayisha** <br>
 https://docs.google.com/presentation/d/1P2Ok4H9Jm12yalylWDSZed-560_Rl5uLkc5jzpWjUSY/edit?usp=sharing
 
 ### React App
-T.E.A.M is an app...
+Keeping in line with NASA's goal to detect and monitor asteroids that could damage cities T.E.A.M. endeavors to create an alert and visualization application that would allow people in the range of possible impact to take necessary steps to evacuate.
+each year.
 <br>
-## Project Schedule
-
-Sample
- ![ProjectSchedule](/uploads/91976f0c0d57a4def2ccb4c8d1261e10/ProjectSchedule.png)
 
 ## Project Description
 The Tracking Extraterrestrial Astroids and Meteorites(T.E.A.M) was created for the purpose of identifying potential threats posed by Astroids and Meteorites to Earth atmosphere.The primary objective of the TEAM App 's is to provide up-to-date critical information to in order to educate communities around the world to be prepared to mitigate the potential impact of Astroids related disasters. 
 <br>
-The user is required to ...
-<br>
-The twitter subscriber will receive a tweet message indicating that a match has been found...
-
-
-
-## Wireframes <br>
-Sample:
-![Screen_Shot_2018-10-13_at_1.28.51_PM](/uploads/-/system/temp/6f1edd065a72d7908d0dd2e68afcece0/Screen_Shot_2018-10-13_at_1.28.51_PM.png)
 
 
 ## App Components
 
 ### Search
 
-
-
 ## Technologies Used
-
+ 
  - **React**
- - **Firebase database**
- - **React Redux**
- - **Firebase Authentication**
- - **Material UI**
-
-
+ - **Boostrap**
+ - **MongoDB**
+ - **Algorithm Middleware**
+ - **WebPack/Babel**
+ - **ThreeJs/WebCl**
  
  
 ## Install Instructions
@@ -58,6 +43,7 @@ In order to Install the T.E.A.M. application the following must be done:
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-google-maps": "^9.4.5"
@@ -90,22 +76,3 @@ In order to Install the T.E.A.M. application the following must be done:
   - npm start
 
 
-## Issues, Solutions and Unsolved Problems
-### Errors, Solutions and Relevant References
-
-
-##The Process & Wins
-
-###Team Standup <br>
-Sample
-![01FirstSU](/uploads/f7a86bf4ba1bcd39381834290c370e32/01FirstSU.jpg) <br>
-###Imagining the App <br>
-Sample:
-![02WireframeBrainstorm](/uploads/35b1e183de053041b019e4bb47c2908e/02WireframeBrainstorm.jpg) 
-<br>
-First Rendering...
-
-
-First Rendering of...
-
-Success ...
