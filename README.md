@@ -2,10 +2,10 @@
 
 # Grab the Can Opener Challenge
 
-##Team: <br>
+## Team: <br>
 T.E.A.M. (Tracking Extraterrestrial Astriods & Meteors) <br>
-##Members: <br>
-Michael, Riley, Nestor, Silu, Gigi, Ayisha** <br>
+## Members: <br>
+**Michael, Riley, Nestor, Silu, Gigi, Ayisha** <br>
 <br>
 ## Project Overview
 ### Presentation
