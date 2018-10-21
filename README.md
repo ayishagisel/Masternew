@@ -38,35 +38,35 @@ The Tracking Extraterrestrial Astroids and Meteorites(T.E.A.M) was created for t
 ## Install Instructions
 In order to Install the T.E.A.M. application the following must be done:
 - **Ultimately the [package.json] file located in the root folder should look like this:**
-{
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-google-maps": "^9.4.5"
+{ <br>
+  "name": "client", <br>
+  "version": "0.1.0", <br>
+  "private": true, <br>
+  "dependencies": { <br>
+    "axios": "^0.18.0", <br>
+    "react": "^16.5.2", <br>
+    "react-dom": "^16.5.2", <br>
+    "react-google-maps": "^9.4.5" <br>
+  }, <br>
+  "devDependencies": { <br>
+    "react-scripts": "2.0.5" <br>
+  }, <br>
+  "scripts": { <br>
+    "start": "react-scripts start", <br>
+    "build": "react-scripts build", <br>
+    "test": "react-scripts test", <br>
+    "eject": "react-scripts eject" <br>
   },
-  "devDependencies": {
-    "react-scripts": "2.0.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+  "eslintConfig": { <br>
+    "extends": "react-app" <br>
+  }, <br>
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
-}
+  ] <br>
+} <br>
 
 - **From the Command Line in the project directory type the following command in order for npm to read the dependencies listed in the [package.json] file which are required to run the application:**
   - npm install
