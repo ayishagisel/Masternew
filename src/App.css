@@ -1,0 +1,94 @@
+map {
+    margin: 20px;
+}
+
+#list {
+    width: 410px;
+    margin: 30px;
+    justify-content: center;
+}
+
+#list {
+    list-style-type: none;
+    list-style-type: decimal;
+    margin-left: 1em;
+    padding: 0;
+    counter-reset: li-counter;
+}
+
+#list li {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    background-color: #f0d756;
+    padding-left: 58px;
+}
+
+#list li:hover {
+    box-shadow: inset -1em 0 #6cd6cc;
+    -webkit-transition: box-shadow 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 0.5s;
+}
+
+#list li:before {
+    position: absolute;
+    top: -0.3em;
+    left: -0.5em;
+    width: 1.8em;
+    height: 1.2em;
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #6cd6cc;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    z-index: 99;
+    overflow: hidden;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+#list a {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    background-color: #f0d756;
+    padding-left: 58px;
+}
+
+#list a:hover {
+    box-shadow: inset -1em 0 #6cd6cc;
+    -webkit-transition: box-shadow 0.5s;
+    /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 0.5s;
+}
+
+#list a:before {
+    position: absolute;
+    top: -0.3em;
+    left: -0.5em;
+    width: 1.8em;
+    height: 1.2em;
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #6cd6cc;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    z-index: 99;
+    overflow: hidden;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+#knowledge {
+    display: table;
+    margin: 0 auto;
+}
